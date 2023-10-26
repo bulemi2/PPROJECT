@@ -3,7 +3,12 @@
 ## Multiple Regression Modeling
 
 ## Overview
+
 This Jupyter Notebook presents a data analysis project focused on analyzing housing prices. The project aims to provide insights into the factors influencing housing prices using a sample dataset.
+
+### Target Audience
+ 
+This data is of interest to a diverse set of stakeholders, including real estate agencies ,properties investors, homeowners, home sellers  and anyone keen on gaining insights into the housing market to help in making investment decisions.
 
 ## Business Understanding
 
@@ -59,19 +64,16 @@ Evaluation metrics, including Mean Squared Error (MSE), Root Mean Squared Error 
 
 ## Limitations
 
-- Missing Data: If there are missing values in the dataset, the regression model may not handle them well by default. Missing data can introduce bias and affect the accuracy of the model's predictions.
-- Outliers: Outliers in the data can significantly influence the regression model's results. If there are influential outliers, they can affect the estimated coefficients and decrease the model's predictive accuracy.
-- Linearity Assumption: The regression model assumes a linear relationship between the independent variables and the target variable. If the relationship is non-linear, the model may not capture the underlying pattern accurately.
-- Multicollinearity: Highly correlated independent variables can lead to multicollinearity, affecting the stability and reliability of the regression coefficients.
+- Missing data.
+- Outliers.
+- Linearity Assumption.
+- Multicollinearity.
 
-## Recommendations & Conclusions
+## Conclusions
 
-- Feature Enhancement: Consider enhancing or upgrading features that positively affect house prices, such as increasing square footage or improving property grade.
-- Feature Importance: Focus on features with higher coefficients, such as 'sqft_living', 'grade', 'bathrooms', and 'sqft_above', as they have a stronger impact on predicted prices.
-- Price Prediction: Utilize the regression model to predict house prices based on the given set of independent variables.
-- Data Collection: Consider collecting additional relevant data to improve the accuracy of the regression model.
-- Market Segmentation: Analyze the relationship between independent variables and house prices to identify market segments or specific buyer preferences.
+- Feature Enhancement
+- Feature Importance
+- Price Prediction
+- Data Collection
+- Market Segmentation
 
----
-
-This README provides an 
