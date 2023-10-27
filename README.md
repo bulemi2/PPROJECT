@@ -4,7 +4,7 @@
 
 ## Overview
 
-This Jupyter Notebook presents a data analysis project focused on analyzing housing prices. The project aims to provide insights into the factors influencing housing prices using a sample dataset.
+This project involves a data analysis that focuses on examining housing prices. Its goal is to offer insights into the elements affecting housing prices by using a sample dataset.
 
 ### Target Audience
  
@@ -14,23 +14,27 @@ This data is of interest to a diverse set of stakeholders, including real estate
 
 # Introduction
 
-This project aims to use multiple regression models to analyze house sales data, identifying and quantifying the relationships between different factors and house prices. The analysis will uncover the main determinants of house prices, assisting stakeholders in making informed decisions related to real estate investments. For instance, homeowners and sellers can utilize the regression model to estimate their property's value and assess how specific improvements or renovations affect the property's price, enabling them to make well-informed choices about pricing and marketing strategies.
+The main goal of this project is to thoroughly analyze housing sales data using multiple regression models. We want to understand and measure how different factors relate to house prices. This analysis will provide valuable insights into what affects house prices, helping people involved in real estate, like homeowners and sellers. They can use the regression model to estimate their property's value and consider how specific changes can impact the price, making informed decisions about pricing and marketing strategies.
 
 # Problem Statement
 
-This project is all about figuring out the things that really impact house prices. Traditional methods often use guesswork or don't look deep enough, which leads to wrong conclusions. This lack of good information makes it hard for people to predict and understand why house prices go up and down. To solve this, we're using a method called multiple regression. It helps us see how different things are connected to house prices by looking at lots of different factors all at once. This way, we get a much better picture of what's going on.
+This project emphasizes the importance of pinpointing the key factors affecting house prices. Traditional methods rely on unreliable evidence, hindering our ability to predict and understand price changes accurately. To address this, we promote the extensive use of multiple regression models for analyzing housing sales data. These models help us uncover the relationships between different factors and house prices, considering the impact of multiple variables together.
 
 # Main Objective
 
-To analyze house sales data using multiple regression modeling techniques to identify and quantify the key factors influencing house sales prices and help shareholders make data-driven decisions on investing in real estate.
+To use multiple regression modeling techniques to analyze house sales data with the aim of identifying and quantifying the influential factors affecting house sales prices. This analysis will empower stakeholders to make informed, data-driven decisions concerning their real estate investments.
 
 # General Objectives
 
-1. Conduct explanatory data analysis to gain insights into the relationships between different variables and the target variable, assisting in the selection of relevant variables for the regression model.
-2. Develop a multiple regression model to predict house sale prices, considering the selected independent variables and their impact on the dependent variable. Validate the model assumptions, assess its goodness of fit, and refine the model if necessary.
-3. Interpret the coefficients of the independent variables in the model to determine their individual impact on house prices, identifying the most influential factors driving the house sales prices and their respective effects.
-4. Evaluate and validate the performance of the model.
-5. Provide actionable insights and recommendations based on the analysis to assist real estate investors and policymakers in making informed decisions regarding property investment, market trends, and economic planning.
+1. Explore the data to understand how different variables relate to the target variable, helping us choose relevant ones for the regression model.
+
+2. Create a multiple regression model to predict house prices, considering chosen independent variables, checking model assumptions, ensuring a good fit, and making improvements as needed.
+
+3. Analyze the coefficients of independent variables to find the most influential factors affecting house prices and describe their effects.
+
+4. Check the model's performance to ensure accuracy and reliability.
+
+5. Offer practical insights and recommendations for real estate investors and policymakers to make informed decisions, understand market trends, and contribute to effective economic planning.
 
 # Data Understanding
 
@@ -59,6 +63,7 @@ The Random Forest Regression model have a higher R-squared score of 0.8201, sign
 The Random Forest Regression model demonstrates superior performance in terms of predictive accuracy compared to the baseline model. It achieves lower MSE and higher R-squared, which indicates that it provides more accurate and reliable predictions and explains a larger portion of the variance in the data.
 The baseline model shows reasonable performance, but there's room for improvement, as indicated by a moderate R-squared score and a slightly higher MSE. It captures a portion of the variance in the data, but the Random Forest model excels in this regard.
 The Random Forest model's results are particularly promising, making it a more robust and accurate choice for making predictions based on the provided metrics
+
 ## Conclusions
 
 1.Model Accuracy: The model's performance is good, as indicated by a low Mean Squared Error (MSE) of 0.0101. This low MSE reflects that, on average, the model's predictions are in close proximity to the actual values, which is a strong indicator of its predictive accuracy.
