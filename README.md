@@ -1,6 +1,6 @@
 
 # Real Estate Analysis 
-![show test](E:/GROUP4_WORK/PROJECT/Photo/todd-kent-178j8tJrNlc-unsplash.jpg)
+
 
 
 
