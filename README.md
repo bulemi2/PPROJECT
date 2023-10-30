@@ -1,8 +1,6 @@
 
 # Real Estate Analysis 
 
-![Alt text](todd-kent-178j8tJrNlc-unsplash.jpg)
-
 
 ## Multiple Regression Modeling
 
