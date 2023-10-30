@@ -1,8 +1,7 @@
 
 # Real Estate Analysis 
 
-![Alt text](todd-kent-178j8tJrNlc-unsplash.jpg)
-
+![alt text] (https://github.com/[bulemi2]/[PPROJECT]/blob/[main]/image.jpg?raw=true)
 
 ## Multiple Regression Modeling
 
