@@ -70,10 +70,9 @@ The Random Forest model's results are particularly promising, making it a more r
 
 ## Conclusions
 
-1.Model Accuracy: The model's performance is good, as indicated by a low Mean Squared Error (MSE) of 0.0101. This low MSE reflects that, on average, the model's predictions are in close proximity to the actual values, which is a strong indicator of its predictive accuracy.
-
-2.Prediction Consistency: The Root Mean Squared Error (RMSE) of 0.1005 reveals that the model's predictions have a typical error of approximately 0.1005 units in the same scale as the target variable. This consistency implies that the model's predictions are reliable and stable across different instances, which is vital for decision-making.
-
-3.High Explained Variance: The R-squared (R2) score of 0.8201 is a notable achievement, suggesting that the model explains approximately 82.01% of the variance in the target variable. This high R2 score signifies that the model effectively captures a significant portion of the variation in the data, indicating a strong fit to the observed outcomes.
-
-4.Model Effectiveness: The model's ability to make accurate predictions, as evidenced by the low MSE and RMSE, coupled with its capability to explain a substantial portion of the variance in the target variable (high R2), demonstrates its effectiveness in addressing the prediction task at hand.
+The Random Forest model excels with a notably low Mean Squared Error (MSE) of 
+0.010 and Root Mean Squared Error (RMSE) of 0.100, outperforming the baseline and 
+multilinear models. Its higher R-squared score of 0.82 indicates superior predictive 
+accuracy, capturing around 82% of the data variability. These results collectively 
+demonstrate the Random Forest model's stronger performance in predicting the 
+price compared to the other models used.
